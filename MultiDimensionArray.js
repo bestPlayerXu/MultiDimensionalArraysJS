@@ -34,4 +34,5 @@ class MultiDimensionArray {
     return dimensions.reduce((a, b, i) => a + b * this.offset[i], 0);
   }
 }
+
 module.exports = MultiDimensionArray;
